@@ -5,4 +5,7 @@ def f(x):
 
 #Je fais une modification 
 
-print(f(2))
+def g(x):
+    return 2*x
+
+print(f(2),g(3))
